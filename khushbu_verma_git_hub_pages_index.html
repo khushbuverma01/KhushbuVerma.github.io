@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khushbu Verma — Network Security Engineer</title>
+  <meta name="description" content="Khushbu Verma — Network Security Engineer | CCNA | CCNP (In Progress) | Portfolio & Resume" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --card:#0f1720;
+      --muted:#95a3b3;
+      --accent:#00d4ff;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;background:linear-gradient(180deg,#05060a 0%, #081018 100%);color:#e6eef6;margin:0}
+    .container{max-width:1000px;margin:36px auto;padding:28px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:14px;background:linear-gradient(180deg,#081018, #0b1220);display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,0.04)}
+    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+    .intro{flex:1}
+    h1{margin:0;font-weight:800;font-size:28px;letter-spacing:-0.4px}
+    .title{color:var(--accent);font-weight:700;margin-top:6px}
+    p.lead{color:var(--muted);margin:12px 0 0}
+
+    .actions{display:flex;gap:10px;margin-top:14px}
+    .btn{background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.06);padding:10px 14px;border-radius:10px;color:var(--accent);text-decoration:none;font-weight:600;font-size:14px;display:inline-flex;gap:10px;align-items:center}
+    .btn.secondary{color:var(--muted);border:1px solid rgba(255,255,255,0.03)}
+
+    main{display:grid;grid-template-columns:1fr 340px;gap:24px;margin-top:26px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:18px;border:1px solid rgba(255,255,255,0.03)}
+    section h2{margin:0 0 12px 0;font-size:16px}
+    .muted{color:var(--muted);font-size:14px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:8px 10px;border-radius:8px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03);font-weight:600;font-size:13px;color:var(--muted)}
+
+    .experience-item{margin-bottom:14px}
+    .role{font-weight:700}
+    .meta{color:var(--muted);font-size:13px;margin-top:6px}
+    .projects{display:grid;gap:12px}
+    .project{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.008));border:1px solid rgba(255,255,255,0.02)}
+    .project h3{margin:0;font-size:15px}
+    .project p{color:var(--muted);margin:8px 0 0;font-size:13px}
+
+    aside .card + .card{margin-top:12px}
+    .contact-list{display:flex;flex-direction:column;gap:8px}
+    .contact a{color:var(--muted);text-decoration:none;font-weight:600}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:920px){main{grid-template-columns:1fr;}} 
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar" id="avatar">
+        <!-- Placeholder for headshot (add headshot.jpg to repo root and replace src) -->
+        <img src="avatar-placeholder.png" alt="Khushbu Verma" onerror="this.style.filter='grayscale(1)';this.style.opacity='0.04'" />
+      </div>
+      <div class="intro">
+        <h1>Khushbu Verma</h1>
+        <div class="title">Network Security Engineer · CCNA · CCNP (In Progress)</div>
+        <p class="lead">Results-driven network security engineer with 4+ years of experience in enterprise security — firewall management, VPN architecture, routing & switching, and SIEM analysis. Passionate about building resilient, secure networks and automating operational tasks.</p>
+        <div class="actions">
+          <a class="btn" href="/resume.pdf" download>⬇️ Download Resume</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/khushbu-verma01" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn secondary" href="mailto:Khushbu.verma01@gmail.com">Email</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <section class="card">
+          <h2>About</h2>
+          <p class="muted">I specialize in securing enterprise networks with hands-on experience across Palo Alto, Cisco ASA/FTD, Fortinet, and Check Point platforms. My work includes vulnerability scanning & reporting, firewall policy design, VPN implementation (site-to-site, remote access, DMVPN), and log analysis using Splunk SIEM.</p>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h2>Experience</h2>
+
+          <div class="experience-item">
+            <div class="role">Network Security Engineer — NTT Data</div>
+            <div class="meta">Apr 2017 — Apr 2022 · Bangalore, India</div>
+            <p class="muted" style="margin-top:8px">Performed Qualys vulnerability scans and client reporting, daily device health checks, weekly backups, RMA support for Cisco devices, web-filtering on Palo Alto firewalls, and Splunk SIEM analysis.</p>
+          </div>
+
+          <div class="experience-item">
+            <div class="role">Network Security Trainee — Networkers Home</div>
+            <div class="meta">Aug 2024 — Mar 2025 · Bangalore, India</div>
+            <p class="muted" style="margin-top:8px">Completed CCNA, ongoing CCNP and CCIE Security training. Hands-on labs with NGFWs (Palo Alto, Fortinet, Cisco FTD) and virtual/hardware devices.</p>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h2>Projects & Labs</h2>
+          <div class="projects">
+            <div class="project">
+              <h3>Enterprise Vulnerability Scanning & Reporting (Qualys)</h3>
+              <p>Configured and scheduled Qualys scans for managed devices, analyzed results, and generated weekly/monthly reports for stakeholders to reduce unresolved vulnerabilities.</p>
+            </div>
+
+            <div class="project">
+              <h3>Site-to-Site IPsec & DMVPN Lab</h3>
+              <p>Designed and implemented site-to-site IPsec VPNs and DMVPN using Cisco ASA and routing devices (GRE/DMVPN), including policy-based and route-based configurations and troubleshooting tunnel flaps and traffic selectors.</p>
+            </div>
+
+            <div class="project">
+              <h3>Palo Alto Web Filtering & Splunk SIEM</h3>
+              <p>Implemented web-filtering rules on Palo Alto NGFW, tuned policies for business use-cases, and correlated events in Splunk to track anomalous traffic and incidents.</p>
+            </div>
+
+            <div class="project">
+              <h3>Email & Web Security (ESA / WSA)</h3>
+              <p>Hands-on configuration of Email Security Appliance (ESA) and Web Security Appliance (WSA) in transparent and explicit proxy modes; analysed mail flow and web traffic policies.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h2>Certifications & Training</h2>
+          <ul class="muted" style="padding-left:18px;margin:8px 0 0">
+            <li>CCNA — Completed</li>
+            <li>CCNP — In Progress</li>
+            <li>CCIE Security Training — Networkers Home (2024–25)</li>
+            <li>Next-Generation Firewall training: Palo Alto | Fortinet | Cisco FTD</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h2>Skills</h2>
+          <div class="skills" style="margin-top:10px">
+            <div class="skill">OSPF</div>
+            <div class="skill">BGP</div>
+            <div class="skill">EIGRP</div>
+            <div class="skill">IPsec / IKEv1 / IKEv2</div>
+            <div class="skill">GRE / DMVPN</div>
+            <div class="skill">Palo Alto NGFW</div>
+            <div class="skill">Cisco ASA / FTD</div>
+            <div class="skill">Fortinet</div>
+            <div class="skill">Splunk SIEM</div>
+            <div class="skill">Qualys</div>
+            <div class="skill">WSA / ESA</div>
+            <div class="skill">Network Troubleshooting</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Contact</h2>
+          <div class="contact-list" style="margin-top:8px">
+            <a href="mailto:Khushbu.verma01@gmail.com">Khushbu.verma01@gmail.com</a>
+            <a href="https://www.linkedin.com/in/khushbu-verma01" target="_blank" rel="noopener">linkedin.com/in/khushbu-verma01</a>
+            <a href="https://github.com/KhushbuVerma" target="_blank" rel="noopener">github.com/KhushbuVerma</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Quick Info</h2>
+          <p class="muted" style="margin:8px 0 0">Location: Bangalore, India<br/>Availability: Open to opportunities</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      Built with care • © <span id="year"></span> Khushbu Verma
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
